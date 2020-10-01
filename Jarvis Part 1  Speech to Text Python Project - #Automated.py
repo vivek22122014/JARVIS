@@ -1,5 +1,6 @@
 import speech_recognition as sr
 import sys
+import time
 
 v=sr.Recognizer()
 
@@ -17,3 +18,5 @@ while(1):
 
         if(format(text)=='exit'):
             sys.exit('Have a nice day sir')
+            
+        time.sleep(5)
